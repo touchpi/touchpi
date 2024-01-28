@@ -1,0 +1,8 @@
+[default]
+_system_classname = "System"
+_system_apptype = "foreground"
+_system_origin = "https://github.com/touchpi/touchpi"
+
+[development]
+
+[production]

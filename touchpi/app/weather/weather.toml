@@ -1,0 +1,9 @@
+[default]
+weather_classname = "Weather"
+weather_apptype = "foreground"
+weather_origin = "https://github.com/touchpi/touchpi"
+
+[development]
+
+[production]
+

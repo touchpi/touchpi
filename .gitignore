@@ -1,0 +1,11 @@
+.vs
+/venv/
+/.venv/
+*.log
+/.idea/
+/.vscode/
+__pycache__/
+*.py[cod]
+
+# Ignore toml config files, but not toml.default files
+*.local.toml

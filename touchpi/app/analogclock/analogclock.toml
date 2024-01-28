@@ -1,0 +1,9 @@
+[default]
+analogclock_classname = "AnalogClock"
+analogclock_apptype = "foreground"
+analogclock_origin = "https://github.com/touchpi/touchpi"
+
+[development]
+
+[production]
+

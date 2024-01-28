@@ -1,0 +1,8 @@
+[default]
+${APPNAME}_classname = "${CLASSNAME}"
+${APPNAME}_apptype = "foreground"
+${APPNAME}_origin = "https://github.com/<your_repo>"
+
+[development]
+
+[production]

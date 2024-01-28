@@ -1,0 +1,13 @@
+[default]
+_screensaver_classname = "ScreenSaver"
+_screensaver_apptype = "foreground"
+_screensaver_origin = "https://github.com/touchpi/touchpi"
+
+_screensaver_switch_backlight = true
+_screensaver_display_saving_sec = 50
+_screensaver_return_home = false
+
+[development]
+
+[production]
+

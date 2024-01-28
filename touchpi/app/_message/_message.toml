@@ -1,0 +1,10 @@
+[default]
+_message_classname = "Message"
+_message_apptype = "foreground"
+_message_origin = "https://github.com/touchpi/touchpi"
+_message_wide = 30
+_message_height = 3
+
+[development]
+
+[production]

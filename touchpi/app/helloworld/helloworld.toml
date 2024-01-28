@@ -1,0 +1,9 @@
+[default]
+helloworld_classname = "HelloWorld"
+helloworld_apptype = "foreground"
+helloworld_origin = "https://github.com/touchpi/touchpi"
+
+[development]
+
+[production]
+

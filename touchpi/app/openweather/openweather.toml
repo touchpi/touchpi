@@ -1,0 +1,16 @@
+[default]
+openweather_classname = "OpenWeather"
+openweather_apptype = "background"
+openweather_origin = "https://github.com/touchpi/touchpi"
+
+openweather_appid = "get_open_weather_api_token"
+openweather_job_intervall_min = 5
+openweather_actual = "https://api.openweathermap.org/data/2.5/weather?"
+openweather_forecast = "https://api.openweathermap.org/data/2.5/forecast?"
+openweather_latitude = "40.758896""
+openweather_longitude = "-73.985130"
+openweather_units = "metric"
+
+[development]
+
+[production]

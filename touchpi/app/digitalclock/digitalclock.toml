@@ -1,0 +1,9 @@
+[default]
+digitalclock_classname = "DigitalClock"
+digitalclock_apptype = "foreground"
+digitalclock_origin = "https://github.com/touchpi/touchpi"
+
+[development]
+
+[production]
+
