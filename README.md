@@ -96,7 +96,7 @@ There are various routines for this, depending on the manufacturer. Sometimes th
 When your touchscreen is connected and working, you should see the boot process at your touch display.
 Login with putty and your user to continue installation with:
 
-- `sudo apt install --yes --no-install-recommends x11-apps xorg`
+- `sudo apt install --yes --no-install-recommends xorg xserver-xorg-video-fbturbo x11-apps xinput-calibrator`
 - `echo "export DISPLAY=:0.0" >> ~/.profile`
 
 > :point_right: **Note: Test the installation**<br>
@@ -122,7 +122,7 @@ Reboot device
 
 Clone from your forked GitHub repository or main touchpi project repository into your user root directory (if you clone the project folder to another place, you have to adjust the autostart line).
 
-- `git clone https://gitlab.bruu.eu/bill/smartpi.git`
+- `git clone git@github.com:touchpi/touchpi.git`  with ssh or `git clone https://github.com/touchpi/touchpi.git`
 
 - `cd touchpi`
 
