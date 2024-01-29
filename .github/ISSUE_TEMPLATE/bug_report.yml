@@ -1,0 +1,65 @@
+name: Bug Report
+description: Create a report to fix bugs
+labels: 
+  - bug
+assignees:
+  - touchpi
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for taking the time to fill out this bug report!**
+        Please understand that we only accept bugs on touchpi.
+        We will reject any non bug related issues, problems with non supported OS versions, OS issues or display/touch driver issues.
+  - type: input
+    id: version
+    attributes:
+      label: Enter the touchpi version
+      description: "On which touchpi release version does the bug occur."
+      placeholder: "Did you tested with the newest touchpi version?"
+    validations:
+      required: true
+  - type: dropdown
+    id: raspberry-os
+    attributes:
+      label: With which supported OS version does the bug occur?
+      multiple: false
+      options:
+        - Raspberry Pi OS Buster lite
+        - Raspberry Pi OS Bullseye lite
+        - Raspberry Pi OS Bookworm lite
+        - Other
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: Hardware
+    attributes:
+      label: Raspberry Hardware
+      description: "On which Raspberry hardware does the bug occur"
+      placeholder: "Example: Raspberry Zero 2W"
+    validations:
+      required: true
+  - type: textarea
+    id: describe-the-bug
+    attributes:
+      label: What happened?
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.      
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: If applicable, add screenshots to help explain your problem
+      description: To attach a file, drag and drop it into the comment box. 
