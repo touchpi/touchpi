@@ -1,7 +1,8 @@
 # packages for touchpi
 # Python version should be >= 3.6
 # pip install -r requirements.txt
-PySimpleGUI>=4.60.5
+PySimpleGUI==4.60.5
+# if you want to use a higher version you have to obtain a licence key from https://www.pysimplegui.com/
 APScheduler>=3.10.4
 requests>=2.31.0
 loguru>=0.7.2
