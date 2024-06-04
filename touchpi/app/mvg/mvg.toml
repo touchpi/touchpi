@@ -1,0 +1,22 @@
+[default]
+mvg_classname = "Mvg"
+mvg_apptype = "foreground"
+mvg_origin = "https://github.com/billbong/touchpi"
+
+mvg_inner_circle_color = "#d8dde3"
+mvg_upper_text_color = "blue"
+mvg_lower_text_color = "red"
+mvg_direction_label1 = "to Laim"
+mvg_direction_label2 = "to City"
+# Sample: Start with a BUS at https://www.mvg.de/meinhalt/aindorferstrasse. Can be reached in 3 minutes
+mvg_public_transport_url1 = "https://www.mvg.de/api/fib/v2/departure?globalId=de:09162:1518&offsetInMinutes=3&transportTypes=BUS"
+# Sample: Connection to SBAHN at https://www.mvg.de/meinhalt/laim. Can be reached in 8 minutes
+mvg_public_transport_url2 = "https://www.mvg.de/api/fib/v2/departure?globalId=de:09162:9&offsetInMinutes=8&transportTypes=SBAHN"
+# Sample: Possible destination from Aindorferstrasse to Laim
+mvg_possible_destination1 = ['Romanplatz', 'Nymphenburg Süd', 'Moosach Bf.']
+# Sample: Possible destination from Laim to City Center
+mvg_possible_destination2 = ['Hauptbahnhof', 'Ostbahnhof', 'Deisenhofen', 'Holzkirchen', 'Leuchtenbergring', 'Berg am Laim', 'Trudering', 'Zorneding', 'Grafing Bahnhof', 'Ebersberg', 'Flughafen']
+
+[development]
+
+[production]
