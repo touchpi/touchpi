@@ -8,4 +8,5 @@ __pycache__/
 *.py[cod]
 
 # Ignore toml config files, but not toml.default files
+_*.local.toml
 *.local.toml
