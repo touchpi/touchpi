@@ -12,7 +12,7 @@ class OS:
         self.apps_to_load = settings["_core_apps"]
         log.info("Touchpi Version: " + settings["_core_os_version"])
         self.all_apps = {}
-        self.load_core_apps_settings(["_screensaver", "_system", "_pulse", "_message"])
+        self.load_core_apps_settings(["_screensaver", "_system", "_pulse", "_message", "_webconfig"])
         self.load_apps_settings()
         theme_name = theme(settings["_core_color_theme"])
         log.info("Color theme is " + theme_name)
@@ -67,6 +67,8 @@ class OS:
             core_apps_to_load.extend(["_screensaver"])
         if settings["_core_pulse_app"]:
             core_apps_to_load.append("_pulse")
+        if settings["_core_webconfig_app"]:
+            core_apps_to_load.append("_webconfig")
         #  There is logic in _core app for auto hiding desktop buttons
         if settings["_core_hide_buttons"]:
             core_apps_to_load.append("_core")

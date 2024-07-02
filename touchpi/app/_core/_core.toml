@@ -2,29 +2,32 @@
 _core_classname = "Core"
 _core_apptype = "background"
 _core_origin = "https://github.com/touchpi/touchpi"
-_core_environment = "default"
+
+_core_window_size_x = 482
+_core_window_size_y = 482
+_core_window_location_x = -1
+_core_window_location_y = -1
 
 _core_apps = ["helloworld"]
-_core_color_theme = "DarkBlue3"
-_core_timezone = "Europe/Berlin"
-_core_app_pre_path = "touchpi/app/"
-_core_loglevel_stderr = "DEBUG"
-_core_eventlog = false
 _core_screensaver_app = true
 _core_system_app = true
 _core_pulse_app = true
+_core_webconfig_app = false
+
 _core_hide_buttons = true
 _core_hide_buttons_sec = 3
 _core_hide_home_button = false
 _core_hide_close_button = false
 _core_hide_navigation_buttons = false
 _core_default_font = 'any 15'
-_core_window_location_x = -1
-_core_window_location_y = -1
-_core_window_size_x = 482
-_core_window_size_y = 482
 _core_button_mouseover = false
-_core_sample_secret_name = "enter secrets in _core.local.toml"
+
+_core_color_theme = "DarkBlue3"
+_core_timezone = "Europe/Berlin"
+_core_eventlog = false
+_core_app_pre_path = "touchpi/app/"
+_core_environment = "default"
+_core_loglevel_stderr = "DEBUG"
 
 [development]
 _core_environment = "development"
