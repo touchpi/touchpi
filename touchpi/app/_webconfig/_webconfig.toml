@@ -1,0 +1,10 @@
+[default]
+_webconfig_classname = "Webconfig"
+_webconfig_apptype = "background"
+_webconfig_origin = "https://github.com/touchpi"
+_webconfig_host = "0.0.0.0"
+_webconfig_port = 8080
+
+[development]
+
+[production]

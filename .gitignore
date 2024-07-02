@@ -10,3 +10,4 @@ __pycache__/
 # Ignore toml config files, but not toml.default files
 _*.local.toml
 *.local.toml
+backup.zip

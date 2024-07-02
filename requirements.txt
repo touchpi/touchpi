@@ -1,5 +1,5 @@
 # packages for touchpi
-# Python version should be >= 3.6
+# Python version should be >= 3.9
 # pip install -r requirements.txt
 PySimpleGUI==4.60.5
 # if you want to use a higher version you have to obtain a licence key from https://www.pysimplegui.com/
@@ -7,5 +7,6 @@ APScheduler>=3.10.4
 requests>=2.31.0
 loguru>=0.7.2
 dynaconf>=3.1.11
-# install on Raspi
+nicegui>=1.4.28; python_version >= '3.9'
+# installs on Raspi
 RPi.GPIO>=0.7.0; platform_machine == 'armv6l' or platform_machine == 'armv7l' or platform_machine == 'aarch64'
