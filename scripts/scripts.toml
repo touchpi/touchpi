@@ -1,0 +1,9 @@
+[default]
+settings = "Script settings loaded"
+# You can use an individual requirements file with requirements = 'requirements.local.txt'
+# Change this setting in scripts.local.toml
+# The file requirements.local.txt is gitignored
+requirements = 'requirements.txt'
+# You can change the DISPLAY Variable in the file scripts.local.toml'
+# You can avoid changing the DISPLAY Variable, when set display is set empty in scripts.local.toml'
+display = ':0.0'

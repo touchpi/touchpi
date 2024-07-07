@@ -1,7 +1,7 @@
 import touchpi.common.window
 from touchpi.common import log, settings
 from touchpi.common import start_scheduler, get_scheduler, load_app_settings, app_settings_valid, get_value
-from .desktop import Desktop
+from touchpi.core.desktop import Desktop
 from PySimpleGUI import theme, Column
 import pydoc
 

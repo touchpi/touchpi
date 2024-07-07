@@ -11,3 +11,4 @@ __pycache__/
 _*.local.toml
 *.local.toml
 backup.zip
+requirements.local.txt
